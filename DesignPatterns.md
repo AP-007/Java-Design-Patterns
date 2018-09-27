@@ -1,3 +1,5 @@
+
+# Design Patterns
 [Design Patterns](https://en.wikipedia.org/wiki/Software_design_pattern) are generic solutions to commonly occuring Software Engineering problems.
 
 Following are some of the perks of design patterns;
@@ -17,9 +19,8 @@ There are various types of design patterns that addesses different problems in s
 Gang of Four patterns are the set of classic software design  patterns, described in the book Design Patterns: Elements of Reusable Object-Oriented Software , written by; Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides
 
 
-**Creational Patterns**
-
+### Creational Patterns
 Creational design patterns deals with problems related to object creation.
 Singleton, Factory, Abstract-Factory, Builder and Prototype are some of the commonly used Creational design patterns 
 
-Singleton is used when we want to retrict object creation to only one single instance. Exactly one single object of a Singleton can be created. The concept can be more generalized to restrict the instantiation to a certain no of objects
+**Singleton** is used when we want to retrict object creation to only one single instance. Exactly one single object of a Singleton can be created. The concept can be more generalized to restrict the instantiation to a certain no of objects
