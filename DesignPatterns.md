@@ -23,4 +23,4 @@ Gang of Four patterns are the set of classic software design  patterns, describe
 Creational design patterns deals with problems related to object creation.
 Singleton, Factory, Abstract-Factory, Builder and Prototype are some of the commonly used Creational design patterns 
 
-**Singleton** is used when we want to retrict object creation to only one single instance. Exactly one single object of a Singleton can be created. The concept can be more generalized to restrict the instantiation to a certain no of objects
+**Singleton** is used when we want to restrict object creation to only one single instance. Exactly one single object of a Singleton can be created. The concept can be more generalized to restrict the instantiation to a certain no of objects
