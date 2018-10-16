@@ -16,7 +16,7 @@ There are various types of design patterns that addesses different problems in s
  3. Architectural Patterns
  4. Other Patterns
 
-Gang of Four patterns are the set of classic software design  patterns, described in the book Design Patterns: Elements of Reusable Object-Oriented Software , written by; Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides
+Gang of Four patterns are the set of classic software design  patterns, described in the book *'Design Patterns: Elements of Reusable Object-Oriented Software'* written by; Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides.
 
 
 ### Creational Patterns
