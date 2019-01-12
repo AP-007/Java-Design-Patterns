@@ -26,3 +26,5 @@ Singleton, Factory, Abstract-Factory, Builder and Prototype are some of the comm
 **Singleton** is used when we want to restrict object creation to only one single instance. Exactly one single object of a Singleton can be created. The concept can be more generalized to restrict the instantiation to a certain no of objects.
 
 **Factory** pattern transfers the responsibility of object creation from the client class to a factory class. Based on the parameters provided to it, a factory method instantiates and returns the respective object without exposing the object creation logic to the client.
+
+**Abstract Factory** is similar to factory pattern, except the fact that it has a super-factory which creates other factories. It is more like a factory of factories. Here the client will pass an instance of the respective factory class of the object it want to create, to the Abstract Factory class. The abstract Factory will then return the corresponding subclass object of the factory instance that was passed.
