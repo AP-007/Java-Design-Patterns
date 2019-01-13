@@ -30,3 +30,9 @@ Singleton, Factory, Abstract-Factory, Builder and Prototype are some of the comm
 **Abstract Factory** is similar to factory pattern, except the fact that it has a super-factory which creates other factories. It is more like a factory of factories. Here the client will pass an instance of the respective factory class of the object it want to create, to the Abstract Factory class. The abstract Factory will then return the corresponding subclass object of the factory instance that was passed.
 
 **Builder** pattern solves some of the problems in Factory and Abstract Factory design patterns. Factory and Abstract Factory are error prone when the object is complex, having many properties, or when the object has optional properties. Builder pattern solves these issues by restricting external object instatiation. It provides a builder class which handles the object creation and provides setter methods for optional properties, which can be used for creating the object step by step.  
+
+
+### Other Patterns
+**Dependency Injection** allows the client code to be independent from the services it is relying on. It makes code more flexible, maintainable, testable, and reusable.
+In Dependency Injection, interfaces are used to define the type of dependecny that is to be injected. This dependecy can have multiple implementations, and can be changed as and when needed. The client uses the Service interface instead of the concrete class to execute the service. 
+Dependency injection is also called **_Inversion of Control_**
