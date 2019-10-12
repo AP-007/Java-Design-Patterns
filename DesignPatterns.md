@@ -7,7 +7,7 @@ Following are some of the perks of design patterns;
   -Tested and Proven
   -Easy to comprehend 
 
-There are various types of design patterns that addesses different problems in software engineering;
+There are various types of design patterns that addresses different problems in software engineering;
  1. Gang Of Four Patterns
     - Creational
     - Structural
@@ -31,6 +31,7 @@ Singleton, Factory, Abstract-Factory, Builder and Prototype are some of the comm
 
 **Builder** pattern solves some of the problems in Factory and Abstract Factory design patterns. Factory and Abstract Factory are error prone when the object is complex, having many properties, or when the object has optional properties. Builder pattern solves these issues by restricting external object instatiation. It provides a builder class which handles the object creation and provides setter methods for optional properties, which can be used for creating the object step by step.  
 
+**Prototype** pattern is a creational design pattern used when object creation tend to be expesive, ie. when object creation involves some expensive tasks like db fetch or file read. The pattern implements a prototype interface that tells to create a clone of the current object. The prototype service will create a base version of all the expensive object at once (usually at app startup itself)
 
 ### Other Patterns
 **Dependency Injection** allows the client code to be independent from the services it is relying on. It makes code more flexible, maintainable, testable, and reusable.
