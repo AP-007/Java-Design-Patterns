@@ -34,7 +34,7 @@ Singleton, Factory, Abstract-Factory, Builder and Prototype are some of the comm
 **Prototype** pattern is a creational design pattern used when object creation tend to be expesive, ie. when object creation involves some expensive tasks like db fetch or file read. The pattern implements a prototype interface that tells to create a clone of the current object. The prototype service will create a base version of all the expensive object at once (usually at app startup itself)
 
 ### Structural Patterns
-Structural design patterns addresses the problems in composing complex relationships by combining and connecting multiple objects. 
+Structural design patterns addresses the problems in integrating multiple classes/objects for forming complex entity relationships. 
 
 ### Other Patterns
 **Dependency Injection** allows the client code to be independent from the services it is relying on. It makes code more flexible, maintainable, testable, and reusable.
